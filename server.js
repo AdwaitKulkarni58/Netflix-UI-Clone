@@ -43,6 +43,6 @@ app.post("/login", validate, (req, res) => {
   }
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8000, (req, res) => {
   console.log("listening on port 8000");
 });
