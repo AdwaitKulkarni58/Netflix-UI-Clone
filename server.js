@@ -34,13 +34,9 @@ app.get("/login", (req, res) => {
 
 app.post("/login", validate, (req, res) => {
   const err = validationResult(req);
-  if (!err.isEmpty()) {
-    return res.status(422).json({ err: err.array() });
-  } else {
-    let email = req.body.email;
-    let password = req.body.password;
-    res.send(`Email: ${email} Password: ${password}`);
-  }
+  let email = req.body.email;
+  let password = req.body.password;
+  res.send(`Email: ${email} Password: ${password}`);
 });
 
 app.listen(process.env.PORT || 8000, (req, res) => {
