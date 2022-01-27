@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="intro">
+      <div id="navbar">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="https://i.ibb.co/r5krrdz/logo.png"
+            alt="logo"
+          />
+        </a>
+      </div>
+      <form action="/login" method="post" class="main-window">
+        <div class="sign-in-heading">Sign In</div>
+        <div class="email-input">
+          <label>
+            <input
+              required
+              type="email"
+              class="input-for-email"
+              placeholder="Email"
+              name="email"
+            />
+          </label>
+        </div>
+        <div class="password-input">
+          <label>
+            <input
+              required
+              type="password"
+              class="input-for-password"
+              placeholder="Password"
+              name="password"
+            />
+          </label>
+        </div>
+        <div class="submit-button">
+          <button type="submit" id="big-submit-button" value="submit">
+            Sign In
+          </button>
+        </div>
+        <div id="remember-me-help-me">
+          <label> <input type="checkbox" class="check" /> </label>Remember me
+          <a id="help">Need help?</a>
+        </div>
+        <div id="new-sign-up">
+          New to Netflix?
+          <a id="sign-up" href="index.html" target="_blank">Sign up now.</a>
+        </div>
+      </form>
+    </section>
+    <div class="separation"></div>
+    <div class="footer intro">
+      <p class="questions">Questions? Call 1-844-542-4813</p>
+      <div class="footer-columns">
+        <ul>
+          <li><a>FAQ</a></li>
+          <li><a>Cookie Preferences</a></li>
+        </ul>
+        <ul>
+          <li><a>Help Center</a></li>
+          <li><a>Corporate Information</a></li>
+        </ul>
+        <ul>
+          <li><a>Terms of Use</a></li>
+        </ul>
+        <ul>
+          <li><a>Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

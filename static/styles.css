@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center center/cover;
+    position: relative;
+    height: 95vh;
+    width: 100%;
+    padding-bottom: 13rem;
+    box-shadow: inset 130px 130px 350px #000000, inset -230px -130px 150px #000000;
+    justify-content: center;
+    z-index: 1;
+}
+
+.intro:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+#navbar {
+    padding: 3%;
+    top: 0;
+}
+
+#navbar:after {
+    z-index: 4;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 170px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    margin-left: 6rem;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+
+.main-window{
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    padding-top: 3%;
+    font-family: sans-serif;
+    transition: opacity;
+    background-color: black;
+    top: 10vh;
+    opacity: 80%;
+    margin: 0 auto;
+    height: 30rem;
+    width: 30%;
+}
+
+.sign-in-heading{
+    color: white;
+    font-size: 2rem;
+    padding-right: 14.1rem;
+    padding-bottom: 1rem;
+}
+
+#remember-me-help-me{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 1%;
+
+}
+
+#new-sign-up{
+    font-size: 1rem;
+    color: gray;
+    margin-top: 7%;
+    padding-right: 0;
+}
+
+#help{
+    color: #FFFFFF;
+    padding-left: 7.2rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#sign-up{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#sign-up:hover{
+    text-decoration: underline;
+}
+
+#help:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.input-for-email, .input-for-password{
+    padding: 11px 40px;
+    font-size: 1.2rem;
+    border-color: #CCCCCC;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 13px;
+    margin: 2%;
+}
+.css-input:focus {
+    outline:none;
+}
+
+
+#big-submit-button {
+    background: red;
+    border-radius: 10px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial, sans-serif;
+    font-size:28px;
+    font-weight:bold;
+    padding:10px 118px;
+    text-decoration:none;
+    opacity: 100%;
+    margin: 8%;
+}
+
+#big-submit-button:active {
+    position:relative;
+    top:1px;
+}
+
+.questions {
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin: 0;
+    padding-left: 18.8rem;
+    padding-top: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+.footer {
+    padding-top: 1rem;
+    height: 4rem;
+    max-width: 100%;
+    margin: 0;
+}
+
+.footer,
+.footer a {
+    color: gray;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
+}
+.footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: beige;
+}
+
+.footer .footer-columns {
+    padding-left: 16.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    padding-right: 16.5rem;
+}
+
+.footer li {
+    line-height: 2;
+    list-style-type: none;
+}
+
+.separation {
+    height: 5px;
+    background-color: grey;
+}
