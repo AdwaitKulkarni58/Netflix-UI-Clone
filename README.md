@@ -1,4 +1,4 @@
-# A full stack clone of the Netflix Canada website.  
+# A UI clone of the Netflix Canada website.  
 
 <hr>
 
